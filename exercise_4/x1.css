@@ -27,14 +27,22 @@ body{
 
 .container{
   display:flex;
+  height: 100vh;
+  border:10px solid mistyrose;
+  align-items:flex-end;
 }
 .box{
-  flex:1;
-  order:1;
+  width:33.3333%;
 }
-.box3{
-  order:-1;
+.box2{
+  padding-top:200px;
+}
+.box6{
+  padding-top:0px;
+}
+.box4{
+  align-self:stretch;
 }
 .box7{
-  order:2;
+  align-self:flex-start;
 }
